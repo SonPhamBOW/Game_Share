@@ -1,0 +1,36 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+client/node_modules
+server/node_modules
+
+# Build output
+client/.next
+client/out
+client/build
+server/dist
+server/build
+
+# Environment variables
+client/.env
+server/.env
+.env
+
+# Cache
+client/.turbo
+client/.cache
+server/.cache
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
+*.swp
